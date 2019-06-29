@@ -46,3 +46,22 @@ var fightRobotArmy2 = function (robots) {
 };
 var dog = {};
 dog.count;
+// Function
+var fightRobotArmy3 = function (robots) {
+    console.log('FIGHT!!!!');
+};
+var fightRobotArmy4 = function (robots) {
+    console.log('FIGHT!!!!');
+    return 1;
+};
+// Classes
+var Animal = /** @class */ (function () {
+    function Animal(sound) {
+        this.sing = 'allallalalalal';
+        this.sing = sound;
+    }
+    Animal.prototype.greet = function () {
+        return "Hello " + this.sing;
+    };
+    return Animal;
+}());
