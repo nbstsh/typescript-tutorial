@@ -33,3 +33,17 @@ enum Size {
 }
 let sizeName: string = Size[2];
 let sizeNumber: number = Size.small;
+
+// Any - !!!!!!!! BE CAREFUL
+let whatever: any = 'aghhhhhhhhh noooooooo!!!!!';
+whatever = basket;
+
+// void
+let sing = (): void => {
+	console.log('la la la la la');
+};
+
+// never
+let error = (): never => {
+	throw Error('ooooop');
+};

@@ -27,3 +27,14 @@ var Size;
 })(Size || (Size = {}));
 var sizeName = Size[2];
 var sizeNumber = Size.small;
+// Any - !!!!!!!! BE CAREFUL
+var whatever = 'aghhhhhhhhh noooooooo!!!!!';
+whatever = basket;
+// void
+var sing = function () {
+    console.log('la la la la la');
+};
+// never
+var error = function () {
+    throw Error('ooooop');
+};
