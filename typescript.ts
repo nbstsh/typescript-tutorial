@@ -101,3 +101,6 @@ class Animal {
 		return `Hello ${this.sing}`;
 	}
 }
+
+// Union
+let confused: string | number | boolean = true;

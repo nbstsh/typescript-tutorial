@@ -65,3 +65,5 @@ var Animal = /** @class */ (function () {
     };
     return Animal;
 }());
+// Union
+var confused = true;
