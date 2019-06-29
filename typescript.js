@@ -1,5 +1,17 @@
-var sum = function (a, b) {
-    return a + b;
+// boolean
+var isCool = true;
+// number
+var age = 54;
+// string
+var eyeColor = 'brown';
+var favouriteQuote = "I'm not old. I'm only " + age;
+// Array
+var pets = ['cat', 'dog', 'pig'];
+var pets2 = ['lion', 'dragon', 'lizard'];
+// Object
+var wizard = {
+    a: 'John'
 };
-var answer = sum(1, 2);
-console.log(answer);
+// null and undefined
+var meh = undefined;
+var noo = null;
